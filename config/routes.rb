@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   #resources :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   
-  get 'home/about'
+  #get 'home/about'
   root 'users#index'
   #root 'application#hello'
   # Defines the root path route ("/")
