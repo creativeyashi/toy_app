@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :users
  # get 'home/index'
- # resources :microposts
-  #resources :users
+ resources :microposts
+resources :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   
   #get 'home/about'
